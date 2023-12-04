@@ -30,7 +30,7 @@ Cell[CellGroupData[{
 Cell[BoxData[{
  RowBox[{
   RowBox[{"Import", "[", 
-   RowBox[{"\"\<main.pdf\>\"", ",", " ", "\"\<Elements\>\""}], "]"}], 
+   RowBox[{"\"\<report.pdf\>\"", ",", " ", "\"\<Elements\>\""}], "]"}], 
   ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"text", " ", "=", " ", 
