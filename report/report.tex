@@ -4,6 +4,10 @@
 
 \begin{document}
 	\include{00-title}
+	\afterpage{\null
+		\thispagestyle{empty}%
+		\addtocounter{page}{-1}%
+		\newpage}
 	\maketableofcontents
 	\include{01-intro}
 	\include{10-analysis}
