@@ -29,4 +29,17 @@
 
 \usepackage{multicol}
 
+\DeclareCaptionLabelSeparator{emdash}{ --- }
+\captionsetup{singlelinecheck=on}
+\captionsetup[figure]{name={Рисунок},labelsep=emdash}
+%\captionsetup{justification=flushleft}
+\captionsetup[table]{singlelinecheck=false,labelsep=emdash}
+\renewcommand{\thetable}{\arabic{table}}
+\renewcommand{\thefigure}{\arabic{figure}}
+
+\usepackage[figure,table]{totalcount} % Подсчет изображений, таблиц
+\usepackage{lastpage} % Для подсчета числа страниц
+\usepackage{pdfpages}
+\usepackage{pax}
+
 %\setcounter{page}{20}
